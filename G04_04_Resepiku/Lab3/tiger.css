@@ -1,0 +1,27 @@
+#sprite_anim {
+
+  width: 180px;
+
+  height: 158px;
+
+  background: url("tiger1.jpeg") 0px 0px;
+
+  animation-name: walking;
+
+  animation-duration: 1s;
+
+  animation-timing-function: steps(6);
+
+  animation-delay: 0;
+
+  animation-iteration-count: infinite;
+
+  animation-direction: normal;
+
+}
+
+@keyframes walking {
+
+  100% { background-position: -1075px;}
+
+}
